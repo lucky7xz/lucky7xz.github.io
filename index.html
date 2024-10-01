@@ -3,152 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NLP Researcher</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <title>Minimal Page</title>
   <style>
     body {
       background-color: #1c1e2a;
       color: #ffffff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
     }
 
-    .header-content {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-    }
-
-    #learnMore {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
+    a {
+      color: #ffffff;
+      text-decoration: underline;
+      margin: 10px;
+      display: inline-block;
     }
   </style>
 </head>
 <body>
-
-<!-- Header -->
-<header class="header text-center">
-  <div class="header-content">
-    <h1>MLP</h1>
-    <p>Natural Language Processing Researcher</p>
-    <button id="learnMoreBtn" class="btn btn-primary learn-more-btn">Learn More</button>
-  </div>
-</header>
-
-<!-- Learn More Section -->
-<section id="learnMore" class="container" style="display: none;">
-  <div class="row">
-    <div class="col-md-6">
-      <img src="aqkv.png" width="250px" alt="aqkv">
-    </div>
-    <div class="col-md-6">
-      <p>
-        I dabble in speech systems, large language models, information retrieval, knowledge graphs and all types of open-source attention goodness. I enjoy developing and implementing creative approaches to language problems with multi-modal data.
-      </p>
-      
-       <p>
-        Interested in open-source conversatinal AI for everyone?...
-        <a href="https://open-assistant.io/" target="_blank" rel="noopener noreferrer">Join the Open Assistant project!</a>
-       </p>
-    
-    </div>
-  </div>
-</section>
-
+  <h1>Welcome to the Page</h1>
   
-<!-- Featured Projects / Highlighted Work Section -->
-<section id="featuredProjects" class="container">
-  <h2 class="text-center">Featured Projects</h2>
-  <div class="row">
-    <!-- Start of loop for placeholders -->
-  
+  <p>
+    <a href="datenschutz.html" target="_blank">Datenschutz</a>
+    <a href="impressum.html" target="_blank">Impressum</a>
+  </p>
 
-
-     <div class="col-md-4 col-sm-6 mb-4">
-      <div class="card">
-        <img src="gpt-4.avif" class="card-img-top" alt="Podcast Argument Mining}">
-        <div class="card-body">
-          <h5 class="card-title">Unleashing the power of AI on podcasts!</h5>
-          <p class="card-text">We dive deep into the realm of Argument Mining, transforming unstructured podcast discussions into neatly structured arguments using GPT-4. Our approach handles both simple (claim-premise) and complex (premises, claim, counterarguments, rebuttals) argument structures, extracting valuable insights. </p>
-          <a href="https://recap.uni-trier.de/static/2360b99cf354f1022f88de892613d4cf/90.pdf" class="btn btn-primary">View Project</a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-md-4 col-sm-6 mb-4">
-      <div class="card">
-        <a href="https://zenodo.org/record/7985213" target="_blank" rel="noopener noreferrer">
-          <img src="pod_tmb.png" class="card-img-top" alt="Podcast Transcription Dataset">
-        </a>
-        <div class="card-body">
-          <h5 class="card-title">Podcast Transcription Dataset: 1500 Episodes</h5>
-          <p class="card-text">The PodcastMining_1498 dataset is a rich and diverse collection of 1498 podcast transcriptions, purpose-built for research in argument mining. It spans multiple podcasts including Lex Fridman Podcast (300 episodes), Huberman Lab, Borrowed Future, Pitchfork Economics, Politics Weekly UK, Civics 101, and more.</p>
-          <a href="https://zenodo.org/record/7985213" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Dataset</a>
-        </div>
-      </div>
-    </div>
-
-    
-     <div class="col-md-4 col-sm-6 mb-4">
-      <div class="card">
-        <a href="https://mimotext.github.io/MiMoTextBase_Tutorial/getting_started.html" target="_blank" rel="noopener noreferrer">
-          <img src="mimo_tmb.png" class="card-img-top" alt="MiMoTextBase Tutorial">
-        </a>
-        <div class="card-body">
-          <h5 class="card-title">Exploring MiMoTextBase: An Interactive Tutorial</h5>
-          <p class="card-text">Discover the world of French Enlightenment novels through this interactive tutorial on MiMoTextBase. Learn about SPARQL, Linked Open Data, and dive into various aspects of the project.</p>
-          <a href="https://mimotext.github.io/MiMoTextBase_Tutorial/getting_started.html" class="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-  
-</section>
-
-<!-- Data Visualizations Section -->
-<section id="dataVisualizations" class="container">
-  <h2 class="text-center">Data Visualizations</h2>
-  <p class="text-center">A glance at some interesting visual insights obtained from diverse datasets.</p>
-  
-  <!-- Car Parts Scrape Project -->
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">Car Parts Scrape Project</h5>
-    </div>
-    <div class="row">
-      <!-- Heatmap Visualization -->
-      <div class="col-md-6 col-sm-12 mb-4">
-        <a href="heatmap.png" data-lightbox="car-parts-project" data-title="Heatmap from Car Parts Scrape">
-          <img src="heatmap.png" class="card-img-top" alt="Heatmap from Car Parts Scrape">
-        </a>
-      </div>
-
-      <!-- Barchart Visualization -->
-      <div class="col-md-6 col-sm-12 mb-4">
-        <a href="stacked_bar_chart.png" data-lightbox="car-parts-project" data-title="Barchart from Car Parts Scrape">
-          <img src="stacked_bar_chart.png" class="card-img-top" alt="Barchart from Car Parts Scrape">
-        </a>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-
-
-
-  
-<!-- Rest of the HTML code -->
-
-<script>
-  document.getElementById("learnMoreBtn").addEventListener("click", function() {
-    document.getElementById("learnMore").style.display = "block";
-     document.getElementById("featuredProjects").style.display = "block";
-  });
-</script>
 </body>
 </html>
