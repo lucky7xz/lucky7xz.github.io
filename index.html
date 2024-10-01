@@ -3,25 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minimal Page</title>
+  <title>MLP</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <style>
     body {
       background-color: #1c1e2a;
       color: #ffffff;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
     }
 
-    a {
-      color: #ffffff;
-      text-decoration: underline;
-      margin: 10px;
-      display: inline-block;
+    .header-content {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    #learnMore {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
   </style>
 </head>
 <body>
+
 
 <!-- Header -->
 <header class="header text-center">
@@ -54,3 +61,15 @@
 
 </body>
 </html>
+
+<!-- Rest of the HTML code -->
+
+<script>
+    document.getElementById("learnMoreBtn").addEventListener("click", function() {
+      document.getElementById("learnMore").style.display = "block";
+       document.getElementById("featuredProjects").style.display = "block";
+    });
+  </script>
+  </body>
+  </html>
+  
