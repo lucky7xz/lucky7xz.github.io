@@ -4,34 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MLP</title>
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <!-- Custom Styles -->
   <style>
     body {
       background-color: #1c1e2a;
       color: #ffffff;
+      font-family: 'Roboto', sans-serif;
     }
-
     .header-content {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
+      margin: 2rem 0;
     }
-
     #learnMore {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
+      margin: 2rem 0;
+    }
+    .footer {
+      padding: 1rem 0;
+      background-color: #1c1e2a;
+    }
+    .footer a {
+      color: #ffffff;
+      margin: 0 0.5rem;
+      text-decoration: none;
     }
   </style>
 </head>
 <body>
-
-
-<!-- Header -->
-<header class="header text-center">
+  <!-- Header -->
+  <header class="header text-center">
     <div class="header-content">
       <h1>MLP</h1>
       <p>Data & AI Consultant</p>
@@ -47,35 +48,28 @@
       </div>
       <div class="col-md-6">
         <p>
-          I dabble in Data Engineering, Speech Systems, Large Language Models, Information Retrieval, Knowledge Graphs and all types of open-source attention goodness. I enjoy developing creative approaches to language problems with multi-modal data.
+          I dabble in Data Engineering, Speech Systems, Large Language Models, Information Retrieval, Knowledge Graphs, and all types of open-source attention goodness. I enjoy developing creative approaches to language problems with multi-modal data.
         </p>
-        
       </div>
     </div>
   </section>
-
-
-  <header class="header text-center"></header>
-    <div class="header-content">
-        <a href="datenschutz.html" target="_blank">Datenschutz</a>
-        <a href="impressum.html" target="_blank">Impressum</a>
-      </p>
+  
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <a href="datenschutz.html" target="_blank">Datenschutz</a> |
+      <a href="impressum.html" target="_blank">Impressum</a>
     </div>
-  </header>
-  <p>
-
-
-</body>
-</html>
-
-<!-- Rest of the HTML code -->
-
-<script>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
     document.getElementById("learnMoreBtn").addEventListener("click", function() {
       document.getElementById("learnMore").style.display = "block";
-       document.getElementById("featuredProjects").style.display = "block";
     });
   </script>
-  </body>
-  </html>
-  
+</body>
+</html>
